@@ -1,0 +1,39 @@
+# General
+.DS_Store
+.vscode
+.idea
+.env
+.env.local
+node_modules/
+vendor/
+
+# OS Files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js Build
+nextjs-app/.next/
+nextjs-app/node_modules/
+nextjs-app/.env
+
+# Laravel Build
+laravel-app/node_modules/
+laravel-app/vendor/
+laravel-app/.env
+laravel-app/storage/*.key
+laravel-app/storage/framework/cache/data/*
+laravel-app/storage/framework/views/*.php
+laravel-app/storage/framework/sessions/*
+laravel-app/storage/logs/*.log
+laravel-app/bootstrap/cache/*.php
+
+# App specific
+/test.html
+/test_dev.html
+/test.css
